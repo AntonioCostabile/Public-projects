@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Inter'
+}
+
+div.rettangolo{
+    width: 1000px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 40px auto;
+    color: white;
+}
+
+div.contenitore{
+    width: 850px;
+    height: 700px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: lime;
+    margin: 0 auto 2px;
+}
+
+h2{
+    display: inline-block;
+    margin: 0;
+}
+
+nav{
+    background-color: lime;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+p:before{
+    content: "\21A3";
+}
+
+p{
+    margin: 5px 0 0;
+}
+
+div.battery.orange{
+    background-color: rgb(221, 163, 54);
+    border-radius: 5px;
+    width: 300px;
+    padding: 6px;
+    margin: 3px 0 25px;
+}
+
+div.battery.green{
+    background-color: rgb(10, 174, 10);
+    border-radius: 5px;
+    width: 500px;
+    padding: 6px;
+    margin: 3px 0 25px;
+}
+
+div.battery.red{
+    background-color: red;
+    border-radius: 5px;
+    width: 100px;
+    padding: 6px;
+    margin: 3px 0 25px;
+}
+
+header > img{
+    margin: 7% 35% auto;
+    width: auto;
+    height: auto;
+    max-width: 220px;
+}
